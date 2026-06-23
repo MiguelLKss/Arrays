@@ -6,4 +6,7 @@ for (let i = 0; i < 5; i++) {
     fila[i] = prompt("Digite o nome da pessoa: ");
 }
 
+let atendida = fila.shift();
+
+console.log("Pessoa atendida:", atendida);
 console.log("Fila:", fila);
